@@ -1,9 +1,11 @@
 # Basic-Problem-Solving-in-Python
-This is my first Repository
-I am an NITian(NIT Rourkela) and learning basics of PYTHON
+HELLO I am an NITian(NIT Rourkela)
+And this is my first Repository while learning basics of PYTHON
 
-This is a program in PYTHON to check wheather the number is a prime or composite
 
+This program checks whether a given number is a "prime" or "composite"
+
+"""
 a=int(input("Enter a number to check wether it is prime or composite:"))
 for m in range(2,a):
     if a%m==0:
@@ -16,3 +18,4 @@ else:
         print("2 is the first prime number")
     else:
         print(f"{a} is a prime number")
+"""
